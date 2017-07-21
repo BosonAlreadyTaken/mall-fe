@@ -1,0 +1,29 @@
+/*
+* @Author: showa11
+* @Date:   2017-07-21 09:14:15
+* @Last Modified by:   showa11
+* @Last Modified time: 2017-07-21 09:48:40
+*/
+
+.page-wrap {
+	background-color: #fff;
+	padding: 30px 0;
+	margin-top: 20px;
+	margin-bottom: 50px; 
+	text-align: center;
+}
+.result-con {
+	display: none;
+}
+.result-con .result-title {
+	color: #555;
+	font-size: 25px;
+}
+.result-con .result-content {
+	margin-top: 20px;
+}
+.result-con .result-content .link {
+	margin: 0 5px;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,33 @@
+/*
+* @Author: showa11
+* @Date:   2017-07-19 18:03:08
+* @Last Modified by:   showa11
+* @Last Modified time: 2017-07-19 18:41:22
+*/
+
+.header .logo {
+	position: absolute;
+	left: 60px;
+	top: 34px;
+	font-size: 36px;
+	color: #c60023;
+	font-weight: bold;
+}
+.header .search-con {
+	padding: 40px 0 30px 250px;
+}
+.header .search-con .search-input {
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	border: 2px solid #c60023;
+	outline: none;
+}
+.header .search-con .search-btn {
+	display: inline-block;
+	height: 44px;
+	width: 80px;
+	outline: none;
+}

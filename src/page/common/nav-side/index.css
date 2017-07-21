@@ -1,0 +1,26 @@
+/*
+* @Author: showa11
+* @Date:   2017-07-20 17:59:24
+* @Last Modified by:   showa11
+* @Last Modified time: 2017-07-20 19:04:15
+*/
+
+.nav-side {
+	float: left;
+	width: 130px;
+	min-height: 100px;
+}
+.nav-side .nav-item {
+	line-height: 25px;
+	font-size: 13px;
+}
+.nav-side .nav-item .link {
+	color: #888;
+}
+.nav-side .nav-item.active .link  {
+	color: #c60023;
+}
+.content.with-nav {
+	float: left;
+	width: 950px;
+}

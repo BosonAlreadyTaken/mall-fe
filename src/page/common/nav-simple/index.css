@@ -1,0 +1,18 @@
+/*
+* @Author: showa11
+* @Date:   2017-07-19 16:07:05
+* @Last Modified by:   showa11
+* @Last Modified time: 2017-07-19 16:13:38
+*/
+.nav-simple {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+.nav-simple .logo {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  color: #c60023; 
+}
