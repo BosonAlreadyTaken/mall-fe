@@ -1,0 +1,17 @@
+/*
+* @Author: showa11
+* @Date:   2017-07-21 20:51:59
+* @Last Modified by:   showa11
+* @Last Modified time: 2017-07-21 21:35:16
+*/
+
+.form-line {
+	 height: 30px;
+	 line-height: 30px;
+	 font-size: 14px;
+}
+.form-line .label {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+}

@@ -2,7 +2,7 @@
 * @Author: showa11
 * @Date:   2017-07-19 13:18:24
 * @Last Modified by:   showa11
-* @Last Modified time: 2017-07-21 09:40:37
+* @Last Modified time: 2017-07-21 21:27:16
 */
 /*CSS reset*/
 
@@ -35,7 +35,23 @@ input[type='checkbox'] {
   position: relative;
   overflow: hidden;
 }
-
+/*pannel*/
+.panel {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.panel .panel-title {
+  padding: 10px;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+.panel .panel-body {
+  padding: 10px;
+  overflow: hidden;
+}
 /*全局通用样式*/
 .hide {
   display: none;

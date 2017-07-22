@@ -2,7 +2,7 @@
 * @Author: showa11
 * @Date:   2017-07-21 09:13:58
 * @Last Modified by:   showa11
-* @Last Modified time: 2017-07-21 09:52:04
+* @Last Modified time: 2017-07-21 10:01:17
 */
 
 
@@ -17,5 +17,4 @@ $(function() {
 
 	//显示对应的提示元素
 	$element.show();
-
 })

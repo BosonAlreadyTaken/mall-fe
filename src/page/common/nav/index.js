@@ -2,7 +2,7 @@
 * @Author: showa11
 * @Date:   2017-06-29 21:51:01
 * @Last Modified by:   showa11
-* @Last Modified time: 2017-07-19 17:43:43
+* @Last Modified time: 2017-07-21 20:33:25
 */
 
 'use strict';
@@ -26,7 +26,7 @@ var nav = {
 		});
 		//注册点击事件
 		$('.js-register').click(function() {
-			window.location.href = './register.html';
+			window.location.href = './user-register.html';
 		});
 		//退出点击事件
 		$('.js-logout').click(function() {
@@ -41,7 +41,7 @@ var nav = {
 	// 加载用户信息
 	loadUserInfo: function () {
 		_user.checkLogin(function(res) {
-				$('.user.not-login').hide().siblings('.user.login').show().find('.username').text('res.username');
+				$('.user.not-login').hide().siblings('.user.login').show().find('.user-name').text(res.username);
 			},function(errMsg) {
 				//do nothing
 		})

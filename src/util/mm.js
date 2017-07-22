@@ -2,7 +2,7 @@
 * @Author: showa11
 * @Date:   2017-07-19 11:55:30
 * @Last Modified by:   showa11
-* @Last Modified time: 2017-07-19 17:13:05
+* @Last Modified time: 2017-07-21 20:25:03
 */
 
 'use strict';
@@ -77,7 +77,7 @@ var _mm = {
    }, 
   //统一登录处理
   doLogin: function() {
-    window.location.href = './view/login.html?redirect=' + encodeURIComponent(window.location.href);
+    window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
   },
   goHome: function() {
     window.location.href = './view/index.html';

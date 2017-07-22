@@ -2,7 +2,7 @@
 * @Author: showa11
 * @Date:   2017-07-19 18:03:08
 * @Last Modified by:   showa11
-* @Last Modified time: 2017-07-19 18:41:22
+* @Last Modified time: 2017-07-21 21:18:57
 */
 
 .header .logo {
@@ -12,6 +12,7 @@
 	font-size: 36px;
 	color: #c60023;
 	font-weight: bold;
+	text-decoration: none;
 }
 .header .search-con {
 	padding: 40px 0 30px 250px;
@@ -26,8 +27,18 @@
 	outline: none;
 }
 .header .search-con .search-btn {
-	display: inline-block;
+	position: absolute;
 	height: 44px;
 	width: 80px;
 	outline: none;
+}
+/*面包屑导航*/
+.crumb {
+	margin-bottom: 15px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #eee;
+	color: #888;
+	font-size: 14px;
+	border-top: 2px solid #c60023;
 }
